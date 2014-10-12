@@ -1,0 +1,140 @@
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+    margin-left: 440px;
+    margin-top: 140px;
+}
+
+
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    width: 800px;
+    min-height: 500px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    position: center;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    background-color: black;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+
+#img_login{
+
+    float: left;
+    position: fixed;;
+    height: 220px;
+    width: 380px;
+    background-color: black;
+    margin-top: 120px;
+    margin-left: 60px;
+}
+
+
+/*-------------------------------Reporte del dia-----------------------------------------*/
+
+.top_menu{
+    height: 25px;
+    width: 800px;
+    margin-top: 0px;
+    padding-top: -10px;
+}
+#cont_rpd{
+    min-height: 800px;
+    width: 700px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.fecha_rpd{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#rpd_caja{
+    height: 400px;
+    margin-top: 10px;
+    /*border: 5px solid;*/
+
+}
+
+#rpd_inv{
+    height: 600px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.t_caja{
+    background-color: white;
+    min-height: 100px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.percenbars{
+    width: 400px;
+    background-color: gray;
+}
+
+.cant_percent{
+    margin-bottom: -32px;
+    margin-left: 150px;
+    color: white;
+    display: block;
+    position: inherit;
+    font-size: 16px;
+
+
+}
+.inv_percent_cont{
+    margin-top: 75px;
+    text-align: center;
+}
