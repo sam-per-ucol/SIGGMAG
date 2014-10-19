@@ -14,8 +14,8 @@
 	}
 
  // A QUICK QUERY ON A FAKE USER TABLE
- 	$query = "SELECT * FROM inventario";
- 	$result = $mysqli->query($query) or die($mysqli->error.__LINE__);
+ //	$query = "SELECT * FROM inventario";
+ //	$result = $mysqli->query($query) or die($mysqli->error.__LINE__);
 
  // // GOING THROUGH THE DATA
  // 	if($result->num_rows > 0) {
